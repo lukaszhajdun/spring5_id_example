@@ -1,6 +1,6 @@
 package lukaszhajdun.controllers;
 
-import lukaszhajdun.Services.GreetingServiceImpl;
+import lukaszhajdun.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

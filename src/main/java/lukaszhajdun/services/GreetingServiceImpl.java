@@ -1,4 +1,4 @@
-package lukaszhajdun.Services;
+package lukaszhajdun.services;
 
 import org.springframework.stereotype.Service;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class GreetingServiceImpl implements GreetingService {
 
-    public static final String HELLO_GUYS = "Hello Guys!!!!";
+    public static final String HELLO_GUYS = "Hello Guys!!!! - Original Greeting";
 
     @Override
     public String sayGreeting() {

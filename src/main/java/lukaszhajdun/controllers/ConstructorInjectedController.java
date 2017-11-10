@@ -1,6 +1,6 @@
 package lukaszhajdun.controllers;
 
-import lukaszhajdun.Services.GreetingService;
+import lukaszhajdun.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 

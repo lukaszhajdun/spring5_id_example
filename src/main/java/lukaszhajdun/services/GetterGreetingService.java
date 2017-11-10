@@ -1,4 +1,4 @@
-package lukaszhajdun.Services;
+package lukaszhajdun.services;
 
 import org.springframework.stereotype.Service;
 
