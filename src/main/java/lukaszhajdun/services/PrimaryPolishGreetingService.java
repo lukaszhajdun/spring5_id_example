@@ -12,8 +12,14 @@ import org.springframework.stereotype.Service;
 @Primary
 public class PrimaryPolishGreetingService implements GreetingService {
 
+    private GreetingRepository greetingRepository;
+
+    public PrimaryPolishGreetingService(GreetingRepository greetingRepository) {
+        this.greetingRepository = greetingRepository;
+    }
+
     @Override
     public String sayGreeting() {
-        return "Witam was!!!";
+        return greetingRepository.getPolishGreeting();
     }
 }
