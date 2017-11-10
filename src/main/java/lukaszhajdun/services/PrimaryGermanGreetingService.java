@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
  * Created by Kroolik on 2017-11-10.
  */
 @Service
-@Profile({"en", "default"})
 @Primary
-public class PrimaryGreetingService implements GreetingService {
+@Profile("de")
+public class PrimaryGermanGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {
-        return "Hello - Primary Greeting Service";
+        return "Hallo Leute!! - Dies ist die Standardbegrüßung";
     }
 }
